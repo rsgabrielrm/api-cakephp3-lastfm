@@ -31,19 +31,23 @@ Start App
 $ bin/cake server
 ```
 
-#Documentation
+# Documentation
 **Post Music**
+
 Send music, search the data in api lastfm and return record saved in the database
 
 ```
     POST /songs
 ```
 Do not send data in the request header
+
 You have to send a body containing type form-data
 ```
     key music type File
     value artist-music.mp3
 ```
+Example Postman
+![](docimage/postmanSendPost.png)
 
 Return music
 ```json
@@ -64,6 +68,7 @@ Return music
 
 
 **List Songs**
+
 List all songs
 
 ```
