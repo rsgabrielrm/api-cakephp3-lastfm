@@ -14,7 +14,9 @@ $ composer install
 ```
 
 Clone and edit .env
+
 #DB: Database settings
+
 #API: Your access key to api last.fm
 ```sh
 $ cp config/.env.default config/.env
